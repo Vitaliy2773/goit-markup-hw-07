@@ -824,6 +824,13 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .customers-list {
     column-gap: 16px;
     row-gap: 72px;
@@ -933,7 +940,7 @@ body {
   }
 
   .footer-form-input {
-    width: 398px;
+    width: 100%;
   }
 
   .footer-link {
