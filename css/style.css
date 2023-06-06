@@ -832,11 +832,11 @@ body {
     margin-right: auto;
   }
   .customers-list {
+    display: flex;
+    flex-direction: row;
     column-gap: 16px;
     row-gap: 72px;
-    width: 396px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
   }
 
   .customers-list-item {
