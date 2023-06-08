@@ -39,6 +39,15 @@
             <li><a href="" class="site-nav-list link">Contacts</a></li>
           </ul>
         </nav>
+        <button
+          type="button"
+          class="mobile-menu-open-btn js-open-menu"
+          aria-expanded="false"
+        >
+          <svg class="mobile-menu-open-btn-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
 
         <!-- Contacts -->
         <address class="contacts-adress">
@@ -55,6 +64,95 @@
             </li>
           </ul>
         </address>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close-btn js-close-menu">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="menu-list-mobile list">
+            <li class="mobile-menu-item">
+              <a href="./index.html" class="mobile-menu-link link">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="./portfolio.html" class="mobile-menu-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a href="" class="mobile-menu-link link">Contacts</a>
+            </li>
+          </ul>
+
+          <div class="contacts-mobile-wrapper container">
+            <ul class="list">
+              <li class="mobile-menu-contact-item">
+                <a class="mobile-menu-contact-info link" href="./portfolio.html"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-contact-item">
+                <a
+                  class="mobile-menu-mail-info link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-menu-social-icon list">
+              <li class="mobile-social-icon-item">
+                <a href="" class="social-list-mob">
+                  <svg
+                    class="social-list-icon-mobile"
+                    aria-label="instagram"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-icon-item">
+                <a href="" class="social-list-mob">
+                  <svg
+                    class="social-list-icon-mobile"
+                    aria-label="twitter"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-icon-item">
+                <a href="" class="social-list-mob">
+                  <svg
+                    class="social-list-icon-mobile"
+                    aria-label="facebook"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-icon-item">
+                <a href="" class="social-list-mob">
+                  <svg
+                    class="social-list-icon-mobile"
+                    aria-label="linkedin"
+                    width="24"
+                    height="24"
+                  >
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -91,7 +189,7 @@
                         ./images/portfolio/app-desktop@1x.webp 1x,
                         ./images/portfolio/app-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                      media="(min-width: 1158px) "
                       type="image/webp"
                     />
                     <source
@@ -99,7 +197,7 @@
                         ./images/portfolio/app.jpg            1x,
                         ./images/portfolio/app-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                      media="(min-width: 1158px) "
                     />
                     <img
                       class="list-img"
@@ -138,7 +236,7 @@
                         ./images/portfolio/payment.jpg            1x,
                         ./images/portfolio/payment-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                     />
                     <img
                       class="list-img"
@@ -163,14 +261,14 @@
             </li>
             <li class="portfolio-list-item">
               <a href="" class="portfolio-link link">
-                <div class="portfolio-list-img-wrapper">
+                <div class="portfolio-list-img-wrapper ">
                   <picture
                     ><source
                       srcset="
                         ./images/portfolio/laptop-desktop@1x.webp 1x,
                         ./images/portfolio/laptop-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                       type="image/webp"
                     />
                     <source
@@ -178,7 +276,7 @@
                         ./images/portfolio/laptop.jpg            1x,
                         ./images/portfolio/laptop-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                     />
                     <img
                       class="list-img"
@@ -210,7 +308,7 @@
                         ./images/portfolio/car-desktop@1x.webp 1x,
                         ./images/portfolio/car-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                       type="image/webp"
                     />
                     <source
@@ -218,7 +316,7 @@
                         ./images/portfolio/car.jpg            1x,
                         ./images/portfolio/car-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                      media="(min-width: 1158px) "
                     />
                     <img
                       class="list-img"
@@ -250,7 +348,7 @@
                         ./images/portfolio/display-desktop@1x.webp 1x,
                         ./images/portfolio/display-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                       type="image/webp"
                     />
                     <source
@@ -258,7 +356,7 @@
                         ./images/portfolio/display.jpg            1x,
                         ./images/portfolio/display-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px)"
                     />
                     <img
                       class="list-img"
@@ -289,7 +387,7 @@
                         ./images/portfolio/girl-desktop@1x.webp 1x,
                         ./images/portfolio/girl-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                       type="image/webp"
                     />
                     <source
@@ -297,7 +395,7 @@
                         ./images/portfolio/girl.jpg            1x,
                         ./images/portfolio/girl-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px)"
                     />
                     <img
                       class="list-img"
@@ -329,7 +427,7 @@
                         ./images/portfolio/stories-desktop@1x.webp 1x,
                         ./images/portfolio/stories-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px)"
                       type="image/webp"
                     />
                     <source
@@ -337,7 +435,7 @@
                         ./images/portfolio/stories.jpg            1x,
                         ./images/portfolio/stories-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px)"
                     />
                     <img
                       class="list-img"
@@ -369,7 +467,7 @@
                         ./images/portfolio/food-desktop@1x.webp 1x,
                         ./images/portfolio/food-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                       type="image/webp"
                     />
                     <source
@@ -377,7 +475,7 @@
                         ./images/portfolio/food.jpg            1x,
                         ./images/portfolio/food-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                     />
                     <img
                       class="list-img"
@@ -409,7 +507,7 @@
                         ./images/portfolio/coffee-desktop@1x.webp 1x,
                         ./images/portfolio/coffee-desktop@2x.webp 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px) "
                       type="image/webp"
                     />
                     <source
@@ -417,7 +515,7 @@
                         ./images/portfolio/coffee.jpg            1x,
                         ./images/portfolio/coffee-desktop@2x.jpg 2x
                       "
-                      media="(min-width: 1158px)"
+                       media="(min-width: 1158px)"
                     />
                     <img
                       class="list-img"
@@ -427,32 +525,44 @@
                       height="300"
                     />
                   </picture>
-                  <!-- tablet -->
-                  <picture
-                    ><source
+                  <p class="overlay text-overlay">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                  </div>
+                   <div class="employees-list-text-content">
+                  <h2 class="portfolio-title">Fresh Coffee</h2>
+                  <p class="text">Web Site</p>
+                </div>
+            <!-- tablet -->
+            <li class="portfolio-list-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <picture>
+                    <source
                       srcset="
-                        ./images/portfolio/laptop-tablet@1x.webp 1x,
-                        ./images/portfolio/laptop-tablet@2x.webp 2x
+                        ./images/portfolio-tablet/app-tablet@1x.webp 1x,
+                        ./images/portfolio-tablet/app-tablet@2x.webp 2x
                       "
-                      media="(min-width: 768px)"
+                      media="(min-width: 768px) "
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/laptop.jpg           1x,
-                        ./images/portfolio/laptop-tablet@2x.jpg 2x
+                        ./images/portfolio-tablet/app-tablet@1x.jpg 1x,
+                        ./images/portfolio-tablet/app-tablet@2x.jpg 2x
                       "
-                      media="(min-width: 768px)"
+                      media="(min-width: 768px) "
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/laptop.jpg"
-                      alt="laptop"
-                      width="360"
+                      src="./images/portfolio-tablet/app-tablet@1x.jpg"
+                      alt="payment"
+                      width="356"
                       height="300"
                     />
                   </picture>
-
                   <p class="overlay text-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -460,7 +570,7 @@
                   </p>
                 </div>
                 <div class="employees-list-text-content">
-                  <h2 class="portfolio-title">Meditation App</h2>
+                  <h2 class="portfolio-title">Banking App Interface Concept</h2>
                   <p class="text">App</p>
                 </div>
               </a>
@@ -471,24 +581,99 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/car-tablet@1x.webp 1x,
-                        ./images/portfolio/car-tablet@2x.webp 2x
+                        ./images/portfolio-tablet/car-tablet@1x.webp  1x,
+                        ./images/portfolio-tablet/car-tablet@2x.webp 2x
+                      "
+                      media="(min-width: 768px) "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-tablet/car-tablet@1x.jpg  1x,
+                        ./images/portfolio-tablet/car-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px) "
+                    />
+                    <img
+                      class="list-img"
+                      src="./images/portfolio-tablet/car-tablet@1x.jpg"
+                      alt="car"
+                      width="356"
+                      height="300"
+                    />
+                  </picture>
+                  <p class="overlay text-overlay">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="employees-list-text-content">
+                  <h2 class="portfolio-title">Cashless Payment</h2>
+                  <p class="text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+            <picture
+              ><source
+                srcset="
+                  ./images/portfolio-tablet/laptop-tablet@1x.webp 1x,
+                  ./images/portfolio-tablet/laptop-tablet@2x.webp 2x
+                "
+                media="(min-width:768px)"
+                type="image/webp"
+              />
+              <source
+                srcset="
+                  ./images/portfolio-tablet/laptop-tablet@1x.jpg           1x,
+                  ./images/portfolio-tablet/laptop-tablet@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <img
+                class="list-img"
+                src="./images/portfolio-tablet/laptop-tablet@1x.jpg"
+                alt="laptop"
+                width="356"
+                height="300"
+              />
+            </picture>
+
+            <div class="employees-list-text-content">
+              <h2 class="portfolio-title">Meditation App</h2>
+              <p class="text">App</p>
+            </div>
+          </li>
+        </a>
+      </div>
+
+            <li class="portfolio-list-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-tablet/car-tablet@1x.webp 1x,
+                        ./images/portfolio-tablet/car-tablet@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/car.jpg           1x,
-                        ./images/portfolio/car-tablet@2x.jpg 2x
+                        ./images/portfolio-tablet/car-tablet@1x.jpg           1x,
+                        ./images/portfolio-tablet/car-tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/car.jpg"
+                      src="./images/portfolio-tablet/car-tablet@1x.jpg"
                       alt="car"
-                      width="360"
+                      width="356"
                       height="300"
                     />
                   </picture>
@@ -511,24 +696,24 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/display-tablet@1x.webp 1x,
-                        ./images/portfolio/display-tablet@2x.webp 2x
+                        ./images/portfolio-tablet/display-tablet@1x.webp 1x,
+                        ./images/portfolio-tablet/display-tablet@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/display.jpg           1x,
-                        ./images/portfolio/display-tablet@2x.jpg 2x
+                        ./images/portfolio-tablet/display-tablet@1x.jpg           1x,
+                        ./images/portfolio-tablet/display-tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/display.jpg"
+                      src="./images/portfolio-tablet/display-tablet@1x.jpg"
                       alt="display"
-                      width="360"
+                      width="356"
                       height="300"
                     />
                   </picture>
@@ -550,24 +735,24 @@
                   <picture
                     ><source
                       srcset="
-                        ./images/portfolio/girl-tablet@1x.webp 1x,
-                        ./images/portfolio/girl-tablet@2x.webp 2x
+                        ./images/portfolio-tablet/girl-tablet@1x.webp 1x,
+                        ./images/portfolio-tablet/girl-tablet@2x.webp 2x
                       "
-                      media="(min-width: 768px)"
+                      media="(min-width:768px )"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/girl.jpg           1x,
-                        ./images/portfolio/girl-tablet@2x.jpg 2x
+                        ./images/portfolio-tablet/girl-tablet@1x.jpg           1x,
+                        ./images/portfolio-tablet/girl-tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/girl.jpg"
+                      src="./images/portfolio-tablet/girl-tablet@1x.jpg"
                       alt="girl"
-                      width="360"
+                      width="356"
                       height="300"
                     />
                   </picture>
@@ -590,24 +775,24 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/stories-tablet@1x.webp 1x,
-                        ./images/portfolio/stories-tablet@2x.webp 2x
+                        ./images/portfolio-tablet/stories-tablet@1x.webp 1x,
+                        ./images/portfolio-tablet/stories-tablet@2x.webp 2x
                       "
-                      media="(min-width: 768px)"
+                      media="(min-width: 768px) "
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/stories.jpg           1x,
-                        ./images/portfolio/stories-tablet@2x.jpg 2x
+                        ./images/portfolio-tablet/stories-tablet@1x.jpg           1x,
+                        ./images/portfolio-tablet/stories-tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/stories.jpg"
+                      src="./images/portfolio-tablet/stories-tablet@1x.jpg"
                       alt="stories"
-                      width="360"
+                      width="356"
                       height="300"
                     />
                   </picture>
@@ -630,22 +815,22 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/food-tablet@1x.webp 1x,
-                        ./images/portfolio/food-tablet@2x.webp 2x
+                        ./images/portfolio-tablet/food-tablet@1x.webp 1x,
+                        ./images/portfolio-tablet/food-tablet@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/food.jpg           1x,
-                        ./images/portfolio/food-tablet@2x.jpg 2x
+                        ./images/portfolio-tablet/food-tablet.jpg           1x,
+                        ./images/portfolio-tablet/food-tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/food.jpg"
+                      src="./images/portfolio-tablet/food-tablet@1x.jpg"
                       alt="food"
                       width="356"
                       height="300"
@@ -670,47 +855,128 @@
                   <picture
                     ><source
                       srcset="
-                        ./images/portfolio/coffee-tablet@1x.webp 1x,
-                        ./images/portfolio/coffee-tablet@2x.webp 2x
+                        ./images/portfolio-tablet/coffee-tablet@1x.webp 1x,
+                        ./images/portfolio-tablet/coffee-tablet@2x.webp 2x
                       "
                       media="(min-width: 768px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/coffee.jpg           1x,
-                        ./images/portfolio/coffee-tablet@2x.jpg 2x
+                        ./images/portfolio-tablet/coffee-tablet@1x.jpg           1x,
+                        ./images/portfolio-tablet/coffee-tablet@2x.jpg 2x
                       "
                       media="(min-width: 768px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/coffee.jpg"
+                      src="./images/portfolio-tablet/coffee-tablet@1x.jpg"
                       alt="coffee"
                       width="356"
                       height="300"
                     />
                   </picture>
                   <!-- mobile -->
-                  <picture
-                    ><source
+                <li class="portfolio-list-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <picture>
+                    <source
                       srcset="
-                        ./images/portfolio/laptop-mobile@1x.webp 1x,
-                        ./images/portfolio/laptop-mobile@2x.webp 2x
+                        ./images/portfolio-mobile/app-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/app-mobile@2x.webp 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px) "
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/laptop.jpg           1x,
-                        ./images/portfolio/laptop-mobile@2x.jpg 2x
+                        ./images/portfolio-mobile/app-mobile@1x.jpg 1x,
+                        ./images/portfolio-mobile/app-mobile@2x.jpg 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px) "
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/laptop.jpg"
+                      src="./images/portfolio-mobile/app-mobile@1x.jpg"
+                      alt="payment"
+                      width="396"
+                      height="280"
+                    />
+                  </picture>
+                  <p class="overlay text-overlay">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="employees-list-text-content">
+                  <h2 class="portfolio-title">Banking App Interface Concept</h2>
+                  <p class="text">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio-mobile/car-mobile@1x.webp  1x,
+                        ./images/portfolio-mobile/car-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px) "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-mobile/car-mobile@1x.jpg  1x,
+                        ./images/portfolio-mobile/car-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px) "
+                    />
+                    <img
+                      class="list-img"
+                      src="./images/portfolio-mobile/car-mobile@1x.jpg"
+                      alt="car"
+                      width="396"
+                      height="280"
+                    />
+                  </picture>
+                  <p class="overlay text-overlay">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="employees-list-text-content">
+                  <h2 class="portfolio-title">Cashless Payment</h2>
+                  <p class="text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/portfolio-mobile/laptop-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/laptop-mobile@2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio-mobile/laptop-mobile.jpg           1x,
+                        ./images/portfolio-mobile/laptop-mobile@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="list-img"
+                      src="./images/portfolio-mobile/laptop-mobile@1x.jpg"
                       alt="laptop"
                       width="396"
                       height="280"
@@ -735,18 +1001,18 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/car-mobile@1x.webp 1x,
-                        ./images/portfolio/car-mobile@2x.webp 2x
+                        ./images/portfolio-mobile/car-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/car-mobile@2x.webp 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/car.jpg           1x,
-                        ./images/portfolio/car-mobile@2x.jpg 2x
+                        ./images/portfolio-mobile/car-mobile@1x.jpg           1x,
+                        ./images/portfolio-mobile/car-mobile@2x.jpg 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                     />
                     <img
                       class="list-img"
@@ -775,22 +1041,22 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/display-mobile@1x.webp 1x,
-                        ./images/portfolio/display-mobile@2x.webp 2x
+                        ./images/portfolio-mobile/display-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/display-mobile@2x.webp 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/display.jpg           1x,
-                        ./images/portfolio/display-mobile@2x.jpg 2x
+                        ./images/portfolio-mobile/display-mobile@1x.jpg           1x,
+                        ./images/portfolio-mobile/display-mobile@2x.jpg 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/display.jpg"
+                      src="./images/portfolio-mobile/display-mobile@1x.jpg"
                       alt="display"
                       width="396"
                       height="280"
@@ -814,22 +1080,22 @@
                   <picture
                     ><source
                       srcset="
-                        ./images/portfolio/girl-mobile@1x.webp 1x,
-                        ./images/portfolio/girl-mobile@2x.webp 2x
+                        ./images/portfolio-mobile/girl-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/girl-mobile@2x.webp 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/girl.jpg           1x,
-                        ./images/portfolio/girl-mobile@2x.jpg 2x
+                        ./images/portfolio-mobile/girl-mobile@1x.jpg           1x,
+                        ./images/portfolio-mobile/girl-mobile@2x.jpg 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/girl.jpg"
+                      src="./images/portfolio-mobile/girl-mobile@1x.jpg"
                       alt="girl"
                       width="396"
                       height="280"
@@ -854,22 +1120,22 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/stories-mobile@1x.webp 1x,
-                        ./images/portfolio/stories-mobile@2x.webp 2x
+                        ./images/portfolio-mobile/stories-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/stories-mobile@2x.webp 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/stories.jpg           1x,
-                        ./images/portfolio/stories-mobile@2x.jpg 2x
+                        ./images/portfolio-mobile/stories-moblie@1x.jpg           1x,
+                        ./images/portfolio-mobile/stories-mobile@2x.jpg 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/stories.jpg"
+                      src="./images/portfolio-mobile/stories-mobile@1x.jpg"
                       alt="stories"
                       width="396"
                       height="280"
@@ -894,22 +1160,22 @@
                   <picture>
                     <source
                       srcset="
-                        ./images/portfolio/food-mobile@1x.webp 1x,
-                        ./images/portfolio/food-mobile@2x.webp 2x
+                        ./images/portfolio-mobile/food-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/food-mobile@2x.webp 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/food.jpg           1x,
-                        ./images/portfolio/food-mobile@2x.jpg 2x
+                        ./images/portfolio-mobile/food-mobile@1x.jpg           1x,
+                        ./images/portfolio-mobile/food-mobile@2x.jpg 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/food.jpg"
+                      src="./images/portfolio-mobile/food-mobile@1x.jpg"
                       alt="food"
                       width="396"
                       height="280"
@@ -934,22 +1200,22 @@
                   <picture
                     ><source
                       srcset="
-                        ./images/portfolio/coffee-mobile@1x.webp 1x,
-                        ./images/portfolio/coffee-mobile@2x.webp 2x
+                        ./images/portfolio-mobile/coffee-mobile@1x.webp 1x,
+                        ./images/portfolio-mobile/coffee-mobile@2x.webp 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                       type="image/webp"
                     />
                     <source
                       srcset="
-                        ./images/portfolio/coffee.jpg           1x,
-                        ./images/portfolio/coffee-mobile@2x.jpg 2x
+                        ./images/portfolio-mobile/coffee-mobile@1x.jpg           1x,
+                        ./images/portfolio-mobile/coffee-mobile@2x.jpg 2x
                       "
-                      media="(min-width: 428px)"
+                      media="(max-width: 767px)"
                     />
                     <img
                       class="list-img"
-                      src="./images/portfolio/coffee.jpg"
+                      src="./images/portfolio-mobile/coffee-mobile@1x.jpg"
                       alt="coffee"
                       width="396"
                       height="280"
@@ -975,7 +1241,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="social-container">
         <div class="logo-footer">
           <a href="./index.html" class="logo link footer-link"
@@ -1064,7 +1330,8 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
